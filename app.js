@@ -1,1 +1,1 @@
-console.log("Welcome to the DevOps Project!");
+console.log("DevOps Application Initialized");
