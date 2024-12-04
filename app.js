@@ -1,8 +1,17 @@
-document.getElementById('loginForm').addEventListener('submit', function (e) {
-    e.preventDefault();
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
 
-    console.log(`Login attempted by ${username}`);
-    alert('Login successful!');
+// Register Form Submission
+document.getElementById('registerForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const regUsername = document.getElementById('regUsername').value;
+    const regEmail = document.getElementById('regEmail').value;
+    const regPassword = document.getElementById('regPassword').value;
+    const confirmPassword = document.getElementById('confirmPassword').value;
+
+    if (regPassword !== confirmPassword) {
+        alert('Passwords do not match!');
+        return;
+    }
+
+    console.log(`User Registered: ${regUsername}, Email: ${regEmail}`);
+    alert('Registration successful!');
 });
