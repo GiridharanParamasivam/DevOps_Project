@@ -1,0 +1,12 @@
+{
+  "name": "devops_project",
+  "version": "1.0.0",
+  "description": "A demonstration of DevOps principles, including Agile management, CI/CD pipelines, and source code management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
